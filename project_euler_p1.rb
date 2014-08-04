@@ -1,9 +1,11 @@
 def value_returned(number)
-	 if is_divisible_by?(number)
-	 	return number
-	 else
-	 	return 0
-	 end
+
+	is_divisible_by?(number)? return number : return 0
+	 # if is_divisible_by?(number)
+	 # 	return number
+	 # else
+	 # 	return 0
+	 # end
 	 
 
 end
